@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- <link rel="stylesheet" href="style .css"> -->
+     <style>
+          * {
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+               font-family: "Poppins", sans-serif;
+          }
+   
+          /* ---------- NAVBAR ------------ */
+          /* ------------------------------ */
+   
+          .navbar {
+               display: flex;
+               justify-content: space-between;
+               align-items: center;
+               padding: 31px 83px;
+               height: 94px;
+               background-color: #000;
+          }
+   
+          .grow-list {
+               flex-grow: 1;
+          }
+   
+          img {
+               width: 92px;
+               height: 32px;
+          }
+   
+          .line {
+               width: 1px;
+               height: 50px;
+               background-color: #fff;
+               margin-left: 63px;
+          }
+   
+          .list {
+               display: flex;
+               align-items: center;
+               gap: 63px;
+               list-style: none;
+               font-family: "Poppins";
+               font-style: normal;
+               font-weight: 600;
+               font-size: 16px;
+               line-height: 24px;
+               color: #ffffff;
+               margin-left: 64px;
+          }
+   
+          .logo,
+          .list-item {
+               cursor: pointer;
+          }
+   
+          .button-small {
+               padding: 7px 28px;
+               background: #ba0cc5;
+               border-radius: 6px;
+               border: none;
+               font-family: "Poppins";
+               font-style: normal;
+               font-weight: 600;
+               font-size: 16px;
+               line-height: 24px;
+               color: #ffffff;
+               cursor: pointer;
+          }
+   
+          /* ---------- HERO ------------ */
+   
+          .hero {
+               background-image: url("assets/bg.png");
+               background-size: cover;
+               background-attachment: fixed;
+               height: 91.5vh;
+               text-align: center;
+          }
+   
+          .hero-heading {
+               max-width: 846px;
+               margin: 0 auto;
+               font-style: normal;
+               font-weight: 700;
+               font-size: 80px;
+               line-height: 98px;
+               text-align: center;
+               color: #ffffff;
+               padding-top: 172px;
+          }
+   
+          .hero-description {
+               font-family: "Poppins";
+               font-style: normal;
+               font-weight: 500;
+               font-size: 30px;
+               line-height: 45px;
+               color: #ffffff;
+          }
+   
+          .button-large {
+               background: #ba0cc5;
+               border-radius: 11.2308px;
+               font-family: "Poppins";
+               font-style: normal;
+               font-weight: 600;
+               font-size: 29.9487px;
+               line-height: 45px;
+               color: #ffffff;
+               border: none;
+               padding: 14px 22px;
+               margin-top: 64px;
+               cursor: pointer;
+          }
+     </style>
+
+     <title>! ASSIGNMENT--3 !</title>
+</head>
+<body>
+     <div class="container">
+          <section aria-label="navbar">
+               <nav class="navbar">
+                    <div>
+                         <img src="assets/white-logo.png" alt="logo" class="logo">
+                    </div>
+                    <div class="line"></div>
+                    <div class="grow-list">
+                         <ul class="list">
+                              <li class="list-item">Apps</li>
+                              <li class="list-item">DAO</li>
+                              <li class="list-item">Technlogy</li>
+                              <li class="list-item">Token</li>
+                              <li class="list-item">Contribution</li>
+                         </ul>
+                    </div>
+                    <div>
+                         <button class="button-small">Buy 1 Token</button>
+                    </div>
+               </nav>
+          </section>
+           
+          <section aria-label="hero">
+               <div class="hero">
+                    <h1 class="hero-heading">Lets build a better tomorrow,together.</h1>
+                    <p class="hero-description">Buy 1 Token.join the DAO change the world</p>
+               
+               
+                    <button class="button-large">
+                         Requst Early Access
+                    </button>
+               </div>
+          </section>
+     </div>
+</body>
+</html>
